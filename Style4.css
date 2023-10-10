@@ -1,0 +1,168 @@
+body{
+    background-color: rgb(212, 212, 212);
+    margin: 0;
+}
+.Title{
+    background-color:steelblue;
+    height: 50px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 400px;
+    margin-left: 200px;
+    align-items: center;
+}
+.VK{
+    color: aliceblue;
+    font-size: larger;
+
+}
+.search input{
+    border-radius: 30px;
+    background-color: lightblue;
+}
+::placeholder{
+    color: aliceblue;
+}
+.mainDiv{
+    margin-top: 25px;
+    height: 100%;
+    display: flex;
+    width: 70%;
+    margin-left: 200px;
+}
+.menu_table{
+    border-spacing: 15px;
+}
+a{
+    text-decoration: none;
+    color: slategray;
+}
+.main_ava{
+    display: flex;
+    flex-direction: column;
+}
+.ava{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+.ava img{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.ava_button{
+    background-color: aliceblue;
+    margin-top: 20px;
+    width: 205px;
+    margin-left: 38px;
+    margin-bottom: 10px;
+}
+.friends{
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+.friends_table td{
+    font-size:smaller;
+}
+.friends_table img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.Info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.Online{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    margin-left: 5px;
+}
+.life{
+    margin-left: 6px;
+    margin-top: -20px;
+    font-size: small;
+}
+.minus{
+    margin-left: 6px;
+}
+.line{
+    margin-left: 4px;
+    border-bottom: 2px solid gray;
+}
+.table_info td{
+    color: slategray;
+}
+.info_2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.info_2_mini{
+    width: 10%;
+}
+.text_info{
+    font-size: 5;
+}
+.background_Info_1{
+    background-color: white;
+    height: 350px;
+}
+.background_Info_2{
+    margin-top: 20px;
+    background-color: white;
+}
+.imgNumber{
+    color: black;
+    margin-left: 12px;
+}
+.imgNumber a{
+    color: gray;
+}
+.MyImg{
+    display: flex;
+    justify-content: space-around;
+}
+.MyImg_1{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.MyImg img{
+    width: 120px;
+}
+.background_Info_3{
+    background-color: white;
+    margin-top: 20px;
+}
+.Me{
+    display: flex;
+    justify-content: flex-start;
+}
+.Me_img{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.Me img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.Me_info{
+    margin-left: 15px;
+}
+.Me_info p{
+    font-size: 15;
+}
+.Me_text{
+   margin-left: 10px;
+   font-size: medium;
+}
